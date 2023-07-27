@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       {/* <button onClick={handleSurvive}>Brave the Oregon Trail</button> */}
-      <button onClick={insultJez}>Increase Dummy: {dummy}</button>
+      {/* <button onClick={insultJez}>Increase Dummy: {dummy}</button> */}
 
       {outcome}
     </div>

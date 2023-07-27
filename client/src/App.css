@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: monospace;
+  background-color: tomato;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

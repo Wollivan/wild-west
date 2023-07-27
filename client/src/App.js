@@ -12,7 +12,7 @@ function App() {
   }, [dummy]);
 
   async function handleSurvive() {
-    const API = "http://localhost:8080/survive";
+    const API = "https://wild-west-xwfg.onrender.com/survive";
     const res = await axios.get(API); // axios made a pinky Promise to give me data
     console.log(res.status);
     setOutcome(res.data); // is asynconrorisuhiuhsdfksjbksjf
